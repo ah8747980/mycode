@@ -10,7 +10,8 @@ answer = " "
 # you could reduce the complexity of this conditional with some "break" statements
 while round < 3 and (answer != "Ahoy" and answer != "Shipmate"):
     round += 1     # increase the round counter by 1
-    answer = input('What was the first USN vessel named after a woman who served in the Navy?')
+    answer = input('What was the first USN vessel named after a woman who served in the Navy?').capitalize()
+
     answer = answer.capitalize() # this line inserted to line 8 will make all
                                  # user input starts with an uppercase
     if answer == "USS Higbee": # logic to check if user gave correct answer
