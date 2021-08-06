@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+The_cold_never_bothered_me_anyway.egg-info/PKG-INFO
+The_cold_never_bothered_me_anyway.egg-info/SOURCES.txt
+The_cold_never_bothered_me_anyway.egg-info/dependency_links.txt
+The_cold_never_bothered_me_anyway.egg-info/top_level.txt
+example_pkg/__init__.py
